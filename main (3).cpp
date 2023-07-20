@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+string a;
+char c;
+cout<<"Enter your text"<<endl;
+getline(cin, a); 
+int sum=0,i=0; 
+for(int i=0;i<a.length();i++)
+{
+if(a[i]!='\n')
+{
+sum++;
+
+}
+
+}
+
+cout<<"Your Word count is: "<<sum;
+}
